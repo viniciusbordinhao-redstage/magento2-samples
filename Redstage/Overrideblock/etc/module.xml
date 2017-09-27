@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Redstage
+ * @package     Redstage_Zibby
+ * @author      Redstage Worldwide, LLC
+ * @copyright   Copyright (c) 2017 Redstage Worldwide, LLC (http://www.redstage.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Redstage_Overrideblock" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Catalog"/>
+            <!--<module name="Magento_Cms"/>-->
+            <!--<module name="Magento_Sales"/>-->
+        </sequence>
+    </module>
+</config>
